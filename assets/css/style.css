@@ -5,7 +5,8 @@ body {
     margin: 0;
     background-color: wheat;
     font-family: 'Open Sans', sans-serif;
-    }
+}
+
 header {
     width: 100%;
     background-color: white;
@@ -21,8 +22,15 @@ header {
     padding: 20px;
 }
 
-ul {margin-bottom: 0;}
-nav ul li {display: inline-block; padding: 15px;}
+ul {
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
 nav ul li a {
     padding: 20px;
     text-align: center;
@@ -30,7 +38,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {opacity: .7;}
+nav ul li a:hover {
+    opacity: .7;
+}
 
 #content {
     max-width: 960px;
@@ -100,6 +110,7 @@ img.link-icon {
     margin-left: 1em;
 }
 
+
 /* ======= Contact Page Style Rules ========= */
 
 input[type=text] {
@@ -116,7 +127,8 @@ textarea {
     margin-bottom: 20px;
 }
 
-input[type=button], input[type=submit] {
+input[type=button],
+input[type=submit] {
     background-color: teal;
     color: #fff;
     font-size: 1.5em;
@@ -125,14 +137,16 @@ input[type=button], input[type=submit] {
     padding: 15px 40px;
 }
 
+
 /* ======= Portfolio Page Style Rules ========= */
+
 .portfolio-contain {
     overflow: auto;
 }
 
 .portfolio-block {
-    width: 300px; 
-    height: 200px; 
+    width: 300px;
+    height: 200px;
     background-color: gray;
     margin-right: 30px;
     position: relative;
@@ -167,12 +181,12 @@ input[type=button], input[type=submit] {
 
 .github-button:hover {
     opacity: .8;
-    text-decoration: none; 
+    text-decoration: none;
     color: #fff;
 }
 
 a.github-button {
-    color: #fff; 
+    color: #fff;
     margin-top: 15px;
     display: block;
     font-size: 1.2em;
@@ -189,9 +203,13 @@ a.github-button {
 .webapp img {
     width: 100%;
     margin-bottom: 30px;
-    -webkit-box-shadow: -1px 3px 14px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 3px 14px 0px rgba(0,0,0,0.75);
-    box-shadow: -1px 3px 14px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 3px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.webapp img:hover {
+    opacity: .7;
 }
 
 .webapp-title {
@@ -204,6 +222,7 @@ a.github-button {
     left: 0%;
 }
 
+
 /* ======= Mobile Responsive Style Rules ========= */
 
 @media (max-width: 640px) {
@@ -212,27 +231,37 @@ a.github-button {
         margin-right: 22%;
         padding: 20px;
     }
-    nav {text-align: center;}
+    nav {
+        text-align: center;
+    }
     header .container {
         max-width: 100%!important;
         margin: 0!important;
         padding: 0!important;
     }
-    .portfolio-block {margin-bottom: 30px;}
+    .portfolio-block {
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
-    nav {text-align: center;}
+    nav {
+        text-align: center;
+    }
     header .container {
         max-width: 100%!important;
         margin: 0!important;
         padding: 0!important;
     }
-    .portfolio-block {margin-bottom: 30px;}
+    .portfolio-block {
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 979px) {
-    .portfolio-contain {margin-bottom: 30px;}
+    .portfolio-contain {
+        margin-bottom: 30px;
+    }
 }
 
 @media (min-width: 980px) {
@@ -241,6 +270,10 @@ a.github-button {
         display: inline-block;
         margin-right: 22%;
     }
-    nav {float: right;}
-    .portfolio-contain {margin-bottom: 30px;}
+    nav {
+        float: right;
+    }
+    .portfolio-contain {
+        margin-bottom: 30px;
+    }
 }
